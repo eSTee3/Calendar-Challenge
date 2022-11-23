@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script>dayjs().format()</script>
     <title>Work Day Scheduler</title>
@@ -33,7 +33,13 @@
     </header>
     <div class="container">
       <!-- Sets up all the hourly entries -->
-
+      <div id="hour08" class="row time-block">
+        <div class="col-md-1 hour">08 AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="btn saveBtn col-md-1">
+          <i class="fas fa-save fa-3x"></i>
+        </button>
+      </div>
       <div id="hour09" class="row time-block">
         <div class="col-md-1 hour">09 AM</div>
         <textarea class="col-md-10 description"></textarea>
