@@ -13,7 +13,7 @@ function updateClock() {
               now.getFullYear()].join(' ');
   document.getElementById('time').innerHTML = [date, time].join(' | ');
   setTimeout(updateClock, 1000);
-}
+} updateClock();
 
 
 
@@ -26,22 +26,6 @@ function updateClock() {
     // How might the id be useful when saving the description in local storage?
 
 
-$('.saveBtn').on('click',function(){
-  var eventData = $(this).siblings('.description').val();
-  var timeSlot = $(this).parent().attr('id');
-  
-  localStorage.setItem(timeSlot, eventData);
-})
-  $('#hour08 .description').val(localStorage.getItem('hour08'));
-  $('#hour09 .description').val(localStorage.getItem('hour09'));
-  $('#hour10 .description').val(localStorage.getItem('hour10'));
-  $('#hour11 .description').val(localStorage.getItem('hour11'));
-  $('#hour12 .description').val(localStorage.getItem('hour12'));
-  $('#hour13 .description').val(localStorage.getItem('hour13'));
-  $('#hour14 .description').val(localStorage.getItem('hour14'));
-  $('#hour15 .description').val(localStorage.getItem('hour15'));
-  $('#hour16 .description').val(localStorage.getItem('hour16'));
-  $('#hour17 .description').val(localStorage.getItem('hour17'));
 
 
 
@@ -96,7 +80,28 @@ $('.saveBtn').on('click',function(){
     // HINT: How can the id attribute of each time-block be used to do this?
 
 
-
+    $('.saveBtn').on('click',function(){
+      var eventData = $(this).siblings('.description').val();
+      var timeSlot = $(this).parent().attr('id');
+      
+      localStorage.setItem(timeSlot, eventData);
+    })
+      $('#hour05 .description').val(localStorage.getItem('hour05'));
+      $('#hour06 .description').val(localStorage.getItem('hour06'));
+      $('#hour07 .description').val(localStorage.getItem('hour07'));
+      $('#hour08 .description').val(localStorage.getItem('hour08'));
+      $('#hour09 .description').val(localStorage.getItem('hour09'));
+      $('#hour10 .description').val(localStorage.getItem('hour10'));
+      $('#hour11 .description').val(localStorage.getItem('hour11'));
+      $('#hour12 .description').val(localStorage.getItem('hour12'));
+      $('#hour13 .description').val(localStorage.getItem('hour13'));
+      $('#hour14 .description').val(localStorage.getItem('hour14'));
+      $('#hour15 .description').val(localStorage.getItem('hour15'));
+      $('#hour16 .description').val(localStorage.getItem('hour16'));
+      $('#hour17 .description').val(localStorage.getItem('hour17'));
+      $('#hour18 .description').val(localStorage.getItem('hour18'));
+      $('#hour19 .description').val(localStorage.getItem('hour19'));
+    
 
 
 
