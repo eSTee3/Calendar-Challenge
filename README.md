@@ -7,11 +7,17 @@ This application will provide the end user with a current-day planner that can b
 ## Table of Contents
 
 - [Application Preview](#application-preview)
+- [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria-for-this-challenge)
 
 # Application Preview
 ## [Link to Daily Work Calendar Application](https://estee3.github.io/Daily-Work-Calendar/index.html)
 ![alt text](./Assets/images/Calendar%20Application%20Preview.png)
+
+## User Story
+***AS AN*** employee with a busy schedule
+***I WANT*** to add important events to a daily planner
+***SO THAT*** I can manage my time effectively
 
 ## Acceptance Criteria
 ***GIVEN I am using a daily planner to create a schedule:***
