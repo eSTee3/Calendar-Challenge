@@ -7,10 +7,7 @@ This application will provide the end user with a password generator solution, a
 ## Table of Contents
 
 - [Application Preview](#application-preview)
-- [Application Features](#site-features)
 - [Acceptance Criteria](#acceptance-criteria-for-this-challenge)
-- [License](#license)
-- [How To Contribute](#how-to-contribute)
 
 # Application Preview
 ## [Link to Daily Work Calendar Application](https://estee3.github.io/Daily-Work-Calendar/index.html)
