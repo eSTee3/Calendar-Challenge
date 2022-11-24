@@ -11,7 +11,7 @@ This application will provide the end user with a password generator solution, a
 
 # Application Preview
 ## [Link to Daily Work Calendar Application](https://estee3.github.io/Daily-Work-Calendar/index.html)
-
+![alt text](./Assets/images/Calendar%20Application%20Preview.png)
 
 ## Acceptance Criteria
 ***GIVEN I am using a daily planner to create a schedule:***
