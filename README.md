@@ -1,16 +1,69 @@
-# Calendar-Challenge
+# Daily Work Calendar
+
+## Description
+
+This application will provide the end user with a password generator solution, allowing them to choose the length and character types to include within the resulting password.
+
+## Table of Contents
+
+- [Application Preview](#application-preview)
+- [Application Features](#site-features)
+- [Acceptance Criteria](#acceptance-criteria-for-this-challenge)
+- [Credits](#credits)
+    - [Git Cheat Sheet](#git-cheat-sheet-pdf)
+    - [Git Flow Process](#git-flow-process)
+    - [HTML Reference](#html-reference)
+    - [Java Basics](#java-basics)
+    - [Java Data Types](#java-data-types)
+- [License](#license)
+- [How To Contribute](#how-to-contribute)
+
+# Application Preview
+## [Link to Code Quiz Application](https://estee3.github.io/Coding-Quiz/index.html)
+
+## Landing Page
+![alt text](./images/Landing%20Page.png)
+
+## Question Preview
+![alt text](./images/Question%20Preview.png)
+
+## High Score Entry Preview
+![alt text](./images/High%20Score%20Entry.png)
+
+## High Score Preview
+![alt text](./images/High%20Scores%20Preview.png)
+
+## Application Features
+- Color-changing interactive buttons so you can easily see what you are choosing/clicking
+- Countdown timer that drops by 10 seconds if an answer is incorrect
+- Ability to enter your initials to save it on the High Score List!
+- High Score Link that brings you directly to the high scores that have been logged
+
+## Acceptance Criteria
+***GIVEN I am using a daily planner to create a schedule:***
+- ***WHEN*** I open the planner
+    - ***THEN*** the current day is displayed at the top of the calendar
+- ***WHEN*** I scroll down
+    - ***THEN*** I am presented with timeblocks for standard business hours
+- ***WHEN*** I view the timeblocks for that day
+    - ***THEN*** each timeblock is color coded to indicate whether it is in the past, present, or future
+- ***WHEN*** I click into a timeblock
+    - ***THEN*** I can enter an event
+- ***WHEN*** I click the save button for that timeblock
+    - ***THEN*** the text for that event is saved in local storage
+- ***WHEN*** the game is over
+    - ***THEN*** I can save my initials and my score
+- ***WHEN*** I refresh the page
+    - ***THEN*** the saved events persist
+
+
+
+
 
 
 
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-## User Story
 
 ```md
 AS AN employee with a busy schedule
