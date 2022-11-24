@@ -2,7 +2,7 @@
 
 ## Description
 
-This application will provide the end user with a password generator solution, allowing them to choose the length and character types to include within the resulting password.
+This application will provide the end user with a current-day planner that can be utilized to plan out any hourly events, while saving them to the user's local device.
 
 ## Table of Contents
 
